@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    color: white;
+    background-color: #170127;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    color: white;
+}
+.navbar a{
+    display: inline-block;
+    font-size:27px;
+    color: white;
+    margin-left: 35px;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-between;
+    margin: 220px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-style: oblique;
+}
+.leftsection h3{
+    font-size: 35px;
+
+}
+.leftsection h1{
+    font-size: 70px;
+    color: #fff;
+
+}
+.leftsection p{
+    font-size: 20px;
+    color: #08d1ba;
+
+}
+.home-sci a{
+    display: inline;
+    align-items: center;
+ width: 40px;
+ height: 40px;
+ margin: 9px;
+    border: 2px solid  aqua;
+    color: coral;
+}
+.home-sci a:hover{
+    color: #fff;
+}
+.btn-box{
+color: aqua;
+border-radius: 40px;
+}
+.btn-box:hover{
+    color: #378b0d;
+}
+.text{
+    color: aqua;
+}
+.container{
+    display: flex;
+    margin: auto;
+
+}
+.about-img img{
+    height: auto;
+    width: 650px;
+    padding: 25px;
+}
+.about-text h2{
+    margin: 20px;
+    font-size: 70px;
+    color: aqua;
+}
+.about-text h3{
+    font-size:50px ;
+}
+.about-text p{
+    font-size: 25px;
+}
+.btn-box{
+    color: aqua;
+    margin-top: 600px;
+    font-size: 30px;
+    margin-right: 60px;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection{
+    font-size: 1.9rem;
+}
+.box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-top{
+    width: 60px;
+    position: relative;
+    top:-60px;
+    left:-15px;
+}
+.vertical-title{
+    position: relative;
+    top:60px;
+    width: 150px;
+
+}
+.vertical-desc{
+    position: relative;
+    top:86px;
+    color: gray;
+    width: 150px;
+    font-size: 13px;
+}
+.text-gray{
+    color: aqua;
+}
+#portfolio{
+    padding: 50px;
+}
+.sub-title{
+    font-size: 50px;
+    margin: 35px;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+
+}
+footer{
+    background-color: #0e0e1a;
+    height: 225px;
+}
+.footer{
+    display: flex;
+    margin: 123px 122px;
+    justify-content: space-around;
+    padding: 34px;
+
+}
+.footer ul{
+    list-style: none;
+
+}
+.footer>div{
+    width: 160px;
+}
+
+
+
+
+
+
+
+
